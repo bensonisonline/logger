@@ -1,15 +1,8 @@
 # logger
 
-To install dependencies:
+A simple logging package for ExpressJS. Works with NodeJS or Bun
 
-```bash
-bun install
-```
+## Set Up
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.19. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+You don't need to set it up. Just copy it and use in your code.
+There's no test writing for it. You can write a test. It's for development and can be used in production if the project is small or medium.
