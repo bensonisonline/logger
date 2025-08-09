@@ -16,7 +16,7 @@ const app = express()
  * If the server fails to start, logs an error message and exits the process.
  */
 
-export const startServer = () => {
+const startServer = () => {
   try {
     app.listen(port, () => {
       log.info(`Server running on port ${port}`);
@@ -26,3 +26,5 @@ export const startServer = () => {
     process.exit(1);
   }
 };
+
+startServer();
