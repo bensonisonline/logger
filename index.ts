@@ -9,6 +9,13 @@ const app = express()
   .use(express.json())
   .use(express.urlencoded({ extended: true }));
 
+/**
+ * Starts the Express server and listens on the specified port.
+ *
+ * Logs an informational message once the server is running.
+ * If the server fails to start, logs an error message and exits the process.
+ */
+
 export const startServer = () => {
   try {
     app.listen(port, () => {
